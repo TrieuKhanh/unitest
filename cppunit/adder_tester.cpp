@@ -25,7 +25,7 @@ public:
  
         void runAddTest() {
                 CPPUNIT_ASSERT( 5 == add(2,3) );
-                CPPUNIT_ASSERT( 22 == add(10,10) );
+                CPPUNIT_ASSERT( 20 == add(10,10) );
         }
  
 };
